@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "owner": "malak@gmail.com",
+        "title": "Calculator",
+        "details": "A Calculator to calculate operations",
+        "target": "5000",
+        "start_date": "2022-05-05",
+        "end_date": "2028-08-08"
+    },
+    {
+        "id": 2,
+        "owner": "user2@gmail.com",
+        "title": "",
+        "details": "",
+        "target": "750000",
+        "start_date": "2025-06-01",
+        "end_date": "2025-09-30"
+    },
+    {
+        "id": 3,
+        "owner": "ghazy@gmail.com",
+        "title": "Greenwave",
+        "details": "E-commerce",
+        "target": 5000,
+        "start_date": "2023-10-01",
+        "end_date": "2024-07-14"
+    },
+    {
+        "id": 4,
+        "owner": "ghazy@gmail.com",
+        "title": "tkinter",
+        "details": "helping disabled people",
+        "target": 10000,
+        "start_date": "2025-01-01",
+        "end_date": "2026-02-28"
+    }
+]
