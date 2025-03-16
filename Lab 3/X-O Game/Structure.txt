@@ -1,0 +1,44 @@
+Class Player:
+--------------
+=> Variables:
+- name:string
+- symbol:string
+=> Methods:
+- choose_name()
+- choose_symbol()
+---------------------------------------------
+Class Board:
+--------------
+=> Variables:
+- board:list
+=> Methods:
+- display_board()
+- update_board()
+- reset_board()
+------------------------------------------------
+Class Menu:
+--------------
+=> Methods:
+- diaplay_main_menu()
+- diaplay_endgame_menu()
+--------------------------------------------------
+Class Game:
+--------------
+=> Variables:
+- board:Board()
+- player:Player()
+- menu:Menu()
+- current_player_index:int
+=> Methods:
+- start_game()
+- play_turn()
+- check_win()
+- check_draw()
+- restart_game()
+- quit_game()
+---------------------------------------
+===>>> Relations:
+------------------
+1- Association  & Composition: - Player & Game
+                 - Game & Board
+                 - Game & Menu                  
